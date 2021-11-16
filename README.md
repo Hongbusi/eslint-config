@@ -1,2 +1,3 @@
 # configs
-ESLint config &amp; StyleLint config &amp; Prettier config for my personal projects.
+
+ESLint config & StyleLint config & Prettier config for my personal projects.

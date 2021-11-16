@@ -1,0 +1,21 @@
+{
+  "name": "@hbs/prettier-config",
+  "version": "1.0.0",
+  "description": "Hongbusi prettier config",
+  "homepage": "https://github.com/Hongbusi/configs",
+  "bugs": {
+    "url": "https://github.com/Hongbusi/configs/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hongbusi/configs.git"
+  },
+  "author": "Hongbusi <q951686662@qq.com>",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "files": [
+    "lib"
+  ]
+}
