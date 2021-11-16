@@ -26,7 +26,7 @@ module.exports = {
   jsxSingleQuote: false,
 
   // Print trailing commas wherever possible when multi-line
-  trailingComma: 'all',
+  trailingComma: 'none',
 
   // Print spaces between brackets in object literals.
   bracketSpacing: true,
@@ -35,7 +35,7 @@ module.exports = {
   bracketSameLine: false,
 
   // Include parentheses around a sole arrow function parameter
-  arrowParens: 'always',
+  arrowParens: 'avoid',
 
   // Format only a segment of a file.
   rangeStart: 0,
@@ -63,5 +63,5 @@ module.exports = {
   vueIndentScriptAndStyle: false,
 
   // End of line
-  endOfLine: 'lf',
+  endOfLine: 'lf'
 };
