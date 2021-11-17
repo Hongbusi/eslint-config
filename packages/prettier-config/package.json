@@ -1,7 +1,7 @@
 {
   "name": "@hbs/prettier-config",
   "version": "0.0..0",
-  "description": "Hongbusi prettier config",
+  "description": "Hongbusi prettier config.",
   "homepage": "https://github.com/Hongbusi/configs",
   "bugs": {
     "url": "https://github.com/Hongbusi/configs/issues"
