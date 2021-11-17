@@ -5,7 +5,7 @@
 ### Install
 
 ``` bash
-yarn add @hbs/prettier-config -D
+yarn add @hongbusi/prettier-config -D
 ```
 
 ### Extend this config
@@ -14,6 +14,6 @@ In `package.json`:
 
 ``` json
 {
-  "prettier": "@hbs/prettier-config"
+  "prettier": "@hongbusi/prettier-config"
 }
 ```

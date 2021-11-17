@@ -6,9 +6,9 @@
   "scripts": {
     "sort": "sort-package-json package.json"
   },
-  "prettier": "@hbs/prettier-config",
+  "prettier": "@hongbusi/prettier-config",
   "devDependencies": {
-    "@hbs/prettier-config": "file:./packages/prettier-config",
+    "@hongbusi/prettier-config": "file:./packages/prettier-config",
     "eslint": "^8.2.0",
     "lerna": "^4.0.0",
     "prettier": "^2.4.1",
