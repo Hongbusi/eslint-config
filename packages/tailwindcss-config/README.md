@@ -14,8 +14,6 @@ In `tailwind.config.js`:
 
 ``` js
 {
-  'plugins': [
-    ...require('@hongbusi/tailwindcss-config')
-  ]
+  plugins: require('@hongbusi/tailwindcss-config')
 }
 ```
