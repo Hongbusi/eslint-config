@@ -1,0 +1,29 @@
+{
+  "name": "@hongbusi/tailwindcss-config",
+  "version": "0.0.1-alpha.0",
+  "description": "Hongbusi tailwindcss config.",
+  "author": "Hongbusi <q951686662@qq.com>",
+  "homepage": "https://github.com/Hongbusi/configs#readme",
+  "license": "ISC",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hongbusi/configs.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/Hongbusi/configs/issues"
+  },
+  "dependencies": {
+    "tailwindcss": "^2.2.19"
+  }
+}
