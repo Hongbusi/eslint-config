@@ -5,7 +5,7 @@
 ### Install
 
 ``` bash
-yarn add prettier @hongbusi/prettier-config --dev
+yarn add @hongbusi/prettier-config --dev
 ```
 
 ### Extend this config
