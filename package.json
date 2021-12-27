@@ -4,12 +4,16 @@
     "packages/*"
   ],
   "scripts": {
-    "sort": "sort-package-json package.json"
+    "sort": "sort-package-json package.json",
+    "prepare": "husky install"
   },
   "prettier": "@hongbusi/prettier-config",
   "devDependencies": {
+    "@commitlint/cli": "^16.0.0",
+    "@commitlint/config-conventional": "^16.0.0",
     "@hongbusi/prettier-config": "file:./packages/prettier-config",
     "eslint": "^8.2.0",
+    "husky": "^7.0.4",
     "lerna": "^4.0.0",
     "prettier": "^2.4.1",
     "sort-package-json": "^1.53.1"
