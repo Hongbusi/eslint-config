@@ -6,7 +6,7 @@
   "scripts": {
     "prepare": "husky install",
     "commit": "cz",
-    "lint": "npx eslint --ext .js,.json,.vue --fix ."
+    "lint": "npx eslint --ext .js,.ts,.json,.vue --fix ."
   },
   "devDependencies": {
     "@commitlint/cli": "^16.0.0",
@@ -14,9 +14,9 @@
     "@hongbusi/eslint-config": "*",
     "commitizen": "^4.2.4",
     "cz-conventional-changelog": "^3.3.0",
+    "eslint": "^8.9.0",
     "husky": "^7.0.4",
-    "lerna": "^4.0.0",
-    "eslint": "^8.9.0"
+    "lerna": "^4.0.0"
   },
   "eslintConfig": {
     "extends": "@hongbusi"
