@@ -11,10 +11,10 @@
     "url": "git+https://github.com/Hongbusi/configs.git"
   },
   "author": "Hongbusi <q951686662@qq.com>",
-  "main": "index.js",
   "files": [
     "index.js"
   ],
+  "main": "index.js",
   "publishConfig": {
     "access": "public"
   }
