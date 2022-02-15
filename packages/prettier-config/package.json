@@ -1,6 +1,6 @@
 {
   "name": "@hongbusi/prettier-config",
-  "version": "0.0.2",
+  "version": "0.0.0",
   "description": "Hongbusi prettier config.",
   "homepage": "https://github.com/Hongbusi/configs",
   "bugs": {
@@ -11,12 +11,9 @@
     "url": "git+https://github.com/Hongbusi/configs.git"
   },
   "author": "Hongbusi <q951686662@qq.com>",
-  "main": "lib/index.js",
-  "directories": {
-    "lib": "lib"
-  },
+  "main": "index.js",
   "files": [
-    "lib"
+    "index.js"
   ],
   "publishConfig": {
     "access": "public"
