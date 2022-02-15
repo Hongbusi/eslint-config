@@ -1,0 +1,22 @@
+{
+  "name": "@hongbusi/eslint-config-basic",
+  "version": "0.0.0",
+  "description": "",
+  "author": "Hongbusi <q951686662@qq.com>",
+  "homepage": "https://github.com/Hongbusi/configs#readme",
+  "license": "MIT",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hongbusi/configs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Hongbusi/configs/issues"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
