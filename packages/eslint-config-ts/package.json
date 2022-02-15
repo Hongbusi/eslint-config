@@ -2,21 +2,29 @@
   "name": "@hongbusi/eslint-config-ts",
   "version": "0.0.0",
   "description": "",
-  "author": "Hongbusi <q951686662@qq.com>",
-  "homepage": "https://github.com/Hongbusi/configs#readme",
   "license": "MIT",
-  "main": "index.js",
-  "files": [
-    "index.js"
-  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Hongbusi/configs.git"
   },
+  "author": "Hongbusi <q951686662@qq.com>",
+  "homepage": "https://github.com/Hongbusi/configs#readme",
+  "files": [
+    "index.js"
+  ],
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: run tests from root\" && exit 1"
+    "lint": "eslint . --config=index.js"
   },
   "bugs": {
     "url": "https://github.com/Hongbusi/configs/issues"
+  },
+  "dependencies": {
+    "@hongbusi/eslint-config-basic": "^0.0.0",
+    "@typescript-eslint/eslint-plugin": "^5.12.0",
+    "@typescript-eslint/parser": "^5.12.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.9.0"
   }
 }
