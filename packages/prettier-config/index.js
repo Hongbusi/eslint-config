@@ -63,5 +63,5 @@ module.exports = {
   vueIndentScriptAndStyle: false,
 
   // End of line
-  endOfLine: 'lf'
+  endOfLine: 'lf',
 };
