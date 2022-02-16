@@ -1,1 +1,0 @@
-# @hongbusi/eslint-config-react
