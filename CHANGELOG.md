@@ -1,6 +1,16 @@
 # Change Log
 
-## [v0.1.1](https://github.com/Hongbusi/configs/tree/v0.1.1/packages/eslint-config)) (2022-02-16)
+## [v0.1.2](https://github.com/Hongbusi/configs/tree/v0.1.2)) (2022-02-16)
+
+### eslint-config
+
+- docs: remove README.md
+
+### prettier-config
+
+- docs: remove README.md
+
+## [v0.1.1](https://github.com/Hongbusi/configs/tree/v0.1.1)) (2022-02-16)
 
 ### eslint-config
 

@@ -1,5 +1,9 @@
 # Change Log
 
+## [v0.1.2](https://github.com/Hongbusi/configs/tree/v0.1.2/packages/eslint-config)) (2022-02-16)
+
+- docs: remove README.md
+
 ## [v0.1.1](https://github.com/Hongbusi/configs/tree/v0.1.1/packages/eslint-config)) (2022-02-16)
 
 - fix: update dependencies
