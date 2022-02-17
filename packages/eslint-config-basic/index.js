@@ -2,23 +2,23 @@ module.exports = {
   env: {
     es6: true,
     browser: true,
-    node: true,
+    node: true
   },
   extends: [
     'standard',
     'plugin:import/recommended',
     'plugin:eslint-comments/recommended',
     'plugin:jsonc/recommended-with-jsonc',
-    'plugin:yml/standard',
+    'plugin:yml/standard'
   ],
   plugins: [
     'html',
-    'unicorn',
+    'unicorn'
   ],
   settings: {
     'import/resolver': {
-      node: { extensions: ['.js', '.mjs', '.ts', '.d.ts'] },
-    },
+      node: { extensions: ['.js', '.mjs', '.ts', '.d.ts'] }
+    }
   },
   overrides: [
     {
@@ -27,12 +27,12 @@ module.exports = {
       rules: {
         'quotes': ['error', 'double'],
         'quote-props': ['error', 'always'],
-        'comma-dangle': ['error', 'never'],
-      },
+        'comma-dangle': ['error', 'never']
+      }
     },
     {
       files: ['*.yaml', '*.yml'],
-      parser: 'yaml-eslint-parser',
+      parser: 'yaml-eslint-parser'
     },
     {
       files: ['package.json'],
@@ -65,40 +65,40 @@ module.exports = {
               'peerDependenciesMeta',
               'dependencies',
               'devDependencies',
-              'eslintConfig',
-            ],
+              'eslintConfig'
+            ]
           },
           {
             pathPattern: '^(?:dev|peer|optional|bundled)?[Dd]ependencies$',
-            order: { type: 'asc' },
-          },
-        ],
-      },
+            order: { type: 'asc' }
+          }
+        ]
+      }
     },
     {
       files: ['*.d.ts'],
       rules: {
-        'import/no-duplicates': 'off',
-      },
+        'import/no-duplicates': 'off'
+      }
     },
     {
       files: ['*.js'],
       rules: {
-        '@typescript-eslint/no-var-requires': 'off',
-      },
+        '@typescript-eslint/no-var-requires': 'off'
+      }
     },
     {
       files: ['scripts/**/*.*'],
       rules: {
-        'no-console': 'off',
-      },
+        'no-console': 'off'
+      }
     },
     {
       files: ['*.test.ts', '*.test.js', '*.spec.ts', '*.spec.js'],
       rules: {
-        'no-unused-expressions': 'off',
-      },
-    },
+        'no-unused-expressions': 'off'
+      }
+    }
   ],
   rules: {
     // import
@@ -121,7 +121,7 @@ module.exports = {
     'camelcase': 'off',
     'comma-spacing': ['error', { before: false, after: true }],
     'comma-style': ['error', 'last'],
-    'comma-dangle': ['error', 'always-multiline'],
+    'comma-dangle': ['error', 'never'],
     'no-constant-condition': 'warn',
     'no-debugger': 'error',
     'no-console': ['error', { allow: ['warn', 'error'] }],
@@ -133,7 +133,7 @@ module.exports = {
       'error',
       'DebuggerStatement',
       'LabeledStatement',
-      'WithStatement',
+      'WithStatement'
     ],
     'object-curly-spacing': ['error', 'always'],
     'no-return-await': 'off',
@@ -145,23 +145,23 @@ module.exports = {
       'error',
       {
         destructuring: 'any',
-        ignoreReadBeforeAssign: true,
-      },
+        ignoreReadBeforeAssign: true
+      }
     ],
     'prefer-arrow-callback': [
       'error',
       {
         allowNamedFunctions: false,
-        allowUnboundThis: true,
-      },
+        allowUnboundThis: true
+      }
     ],
     'object-shorthand': [
       'error',
       'always',
       {
         ignoreConstructors: false,
-        avoidQuotes: true,
-      },
+        avoidQuotes: true
+      }
     ],
     'prefer-rest-params': 'error',
     'prefer-spread': 'error',
@@ -172,13 +172,13 @@ module.exports = {
     'spaced-comment': ['error', 'always', {
       line: {
         markers: ['/'],
-        exceptions: ['/', '#'],
+        exceptions: ['/', '#']
       },
       block: {
         markers: ['!'],
         exceptions: ['*'],
-        balanced: true,
-      },
+        balanced: true
+      }
     }],
 
     // best-practice
@@ -236,8 +236,8 @@ module.exports = {
         ignoreDeclarationSort: true,
         ignoreMemberSort: false,
         memberSyntaxSortOrder: ['none', 'all', 'multiple', 'single'],
-        allowSeparatedGroups: false,
-      },
-    ],
-  },
+        allowSeparatedGroups: false
+      }
+    ]
+  }
 }

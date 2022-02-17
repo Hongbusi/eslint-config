@@ -4,7 +4,7 @@ const basic = require('@hongbusi/eslint-config-basic')
 module.exports = {
   extends: [
     '@hongbusi/eslint-config-basic',
-    'plugin:@typescript-eslint/recommended',
+    'plugin:@typescript-eslint/recommended'
   ],
   overrides: basic.overrides,
   rules: {
@@ -33,7 +33,7 @@ module.exports = {
     'brace-style': 'off',
     '@typescript-eslint/brace-style': ['error', 'stroustrup', { allowSingleLine: true }],
     'comma-dangle': 'off',
-    '@typescript-eslint/comma-dangle': ['error', 'always-multiline'],
+    '@typescript-eslint/comma-dangle': ['error', 'never'],
     'object-curly-spacing': 'off',
     '@typescript-eslint/object-curly-spacing': ['error', 'always'],
 
@@ -49,6 +49,6 @@ module.exports = {
     '@typescript-eslint/no-non-null-assertion': 'off',
     '@typescript-eslint/explicit-module-boundary-types': 'off',
     '@typescript-eslint/ban-types': 'off',
-    '@typescript-eslint/no-namespace': 'off',
-  },
+    '@typescript-eslint/no-namespace': 'off'
+  }
 }
