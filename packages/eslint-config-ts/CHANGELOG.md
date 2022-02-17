@@ -1,3 +1,9 @@
 # Change Log
 
-## [v0.1.0](https://github.com/Hongbusi/configs/tree/v0.1.0/packages/eslint-config-ts) (2022-02-15)
+## v0.1.2 (2022-02-17)
+
+- feat: comma-dangle never
+- style: formatting codes
+- docs: remove README.md
+
+## v0.1.0 (2022-02-15)
