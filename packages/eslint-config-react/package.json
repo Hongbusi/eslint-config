@@ -1,6 +1,6 @@
 {
   "name": "@hongbusi/eslint-config-react",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "description": "",
   "license": "MIT",
   "repository": {
@@ -20,7 +20,7 @@
     "url": "https://github.com/Hongbusi/configs/issues"
   },
   "dependencies": {
-    "@hongbusi/eslint-config-ts": "^0.1.2",
+    "@hongbusi/eslint-config-ts": "^0.2.0",
     "eslint-plugin-react": "^7.29.3"
   },
   "devDependencies": {
