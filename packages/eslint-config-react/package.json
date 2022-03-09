@@ -21,7 +21,7 @@
   },
   "dependencies": {
     "@hongbusi/eslint-config-ts": "^0.1.2",
-    "eslint-plugin-react": "^7.28.0"
+    "eslint-plugin-react": "^7.29.3"
   },
   "devDependencies": {
     "eslint": "^8.10.0"
