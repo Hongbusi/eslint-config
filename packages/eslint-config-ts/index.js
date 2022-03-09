@@ -1,4 +1,3 @@
-// eslint-disable-next-line @typescript-eslint/no-var-requires
 const basic = require('@hongbusi/eslint-config-basic')
 
 module.exports = {
@@ -6,7 +5,6 @@ module.exports = {
     '@hongbusi/eslint-config-basic',
     'plugin:@typescript-eslint/recommended'
   ],
-  overrides: basic.overrides,
   rules: {
     'import/named': 'off',
 
