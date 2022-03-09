@@ -1,5 +1,3 @@
-const basic = require('@hongbusi/eslint-config-basic')
-
 module.exports = {
   extends: [
     '@hongbusi/eslint-config-basic',

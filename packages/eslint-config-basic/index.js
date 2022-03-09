@@ -59,7 +59,7 @@ module.exports = {
       {
         allowNamedFunctions: false,
         allowUnboundThis: true
-      },
+      }
     ],
     'object-shorthand': [
       'error',
