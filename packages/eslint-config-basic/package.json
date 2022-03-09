@@ -3,11 +3,19 @@
   "version": "0.1.2",
   "description": "",
   "license": "MIT",
-  "author": "Hongbusi",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hongbusi/configs.git"
+  },
+  "author": "Hongbusi <q951686662@qq.com>",
+  "homepage": "https://github.com/Hongbusi/configs#readme",
   "files": [
     "index.js"
   ],
   "main": "index.js",
+  "bugs": {
+    "url": "https://github.com/Hongbusi/configs/issues"
+  },
   "scripts": {
     "lint": "eslint . --config=index.js"
   },
