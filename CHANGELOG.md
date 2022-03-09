@@ -1,5 +1,9 @@
 # Change Log
 
+## v0.2.0 (2022-03-09)
+
+- restructure
+
 ## v0.1.2 (2022-02-16)
 
 - feat: comma-dangle never
