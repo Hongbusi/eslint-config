@@ -1,6 +1,6 @@
 # configs
 
-ESLint config & StyleLint config & Prettier config for my personal projects.
+ESLint config & Prettier config for my personal projects.
 
 ## Eslint config
 
@@ -37,19 +37,6 @@ For example:
 {
   "scripts": {
     "lint": "eslint \"**/*.{vue,ts,js}\""
-  }
-}
-```
-
-### Config VSCode auto fix
-
-Create `.vscode/settings.json`
-
-```json
-{
-  "prettier.enable": false,
-  "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true
   }
 }
 ```
