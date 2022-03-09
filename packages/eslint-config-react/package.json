@@ -1,0 +1,32 @@
+{
+  "name": "@hongbusi/eslint-config-react",
+  "version": "0.1.2",
+  "description": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hongbusi/configs.git"
+  },
+  "author": "Hongbusi <q951686662@qq.com>",
+  "homepage": "https://github.com/Hongbusi/configs#readme",
+  "files": [
+    "index.js"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint . --config=index.js"
+  },
+  "bugs": {
+    "url": "https://github.com/Hongbusi/configs/issues"
+  },
+  "dependencies": {
+    "@hongbusi/eslint-config-ts": "^0.1.2",
+    "eslint-plugin-react": "^7.28.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.10.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
