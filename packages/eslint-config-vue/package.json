@@ -1,6 +1,6 @@
 {
   "name": "@hongbusi/eslint-config-vue",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "",
   "license": "MIT",
   "repository": {
@@ -17,7 +17,7 @@
     "url": "https://github.com/Hongbusi/configs/issues"
   },
   "dependencies": {
-    "@hongbusi/eslint-config-ts": "^0.2.0",
+    "@hongbusi/eslint-config-ts": "^0.2.1",
     "eslint-plugin-vue": "^8.5.0"
   },
   "devDependencies": {
