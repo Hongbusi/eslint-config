@@ -23,9 +23,9 @@
     chalk "^2.0.0"
     js-tokens "^4.0.0"
 
-"@commitlint/cli@^16.2.1":
+"@commitlint/cli@16.2.1":
   version "16.2.1"
-  resolved "https://registry.npmjs.org/@commitlint/cli/-/cli-16.2.1.tgz#ca4e557829a2755f0e1f0cd69b56b83ce2510173"
+  resolved "https://registry.yarnpkg.com/@commitlint/cli/-/cli-16.2.1.tgz#ca4e557829a2755f0e1f0cd69b56b83ce2510173"
   integrity sha512-zfKf+B9osuiDbxGMJ7bWFv7XFCW8wlQYPtCffNp7Ukdb7mdrep5R9e03vPUZysnwp8NX6hg05kPEvnD/wRIGWw==
   dependencies:
     "@commitlint/format" "^16.2.1"
@@ -38,9 +38,9 @@
     resolve-global "1.0.0"
     yargs "^17.0.0"
 
-"@commitlint/config-conventional@^16.2.1":
+"@commitlint/config-conventional@16.2.1":
   version "16.2.1"
-  resolved "https://registry.npmjs.org/@commitlint/config-conventional/-/config-conventional-16.2.1.tgz#2cf47b505fb259777c063538c8498d8fd9b47779"
+  resolved "https://registry.yarnpkg.com/@commitlint/config-conventional/-/config-conventional-16.2.1.tgz#2cf47b505fb259777c063538c8498d8fd9b47779"
   integrity sha512-cP9gArx7gnaj4IqmtCIcHdRjTYdRUi6lmGE+lOzGGjGe45qGOS8nyQQNvkNy2Ey2VqoSWuXXkD8zCUh6EHf1Ww==
   dependencies:
     conventional-changelog-conventionalcommits "^4.3.1"
@@ -1721,9 +1721,9 @@ combined-stream@^1.0.6, combined-stream@~1.0.6:
   dependencies:
     delayed-stream "~1.0.0"
 
-commitizen@^4.0.3, commitizen@^4.2.4:
+commitizen@4.2.4, commitizen@^4.0.3:
   version "4.2.4"
-  resolved "https://registry.npmjs.org/commitizen/-/commitizen-4.2.4.tgz#a3e5b36bd7575f6bf6e7aa19dbbf06b0d8f37165"
+  resolved "https://registry.yarnpkg.com/commitizen/-/commitizen-4.2.4.tgz#a3e5b36bd7575f6bf6e7aa19dbbf06b0d8f37165"
   integrity sha512-LlZChbDzg3Ir3O2S7jSo/cgWp5/QwylQVr59K4xayVq8S4/RdKzSyJkghAiZZHfhh5t4pxunUoyeg0ml1q/7aw==
   dependencies:
     cachedir "2.2.0"
@@ -1930,9 +1930,9 @@ cz-conventional-changelog@3.2.0:
   optionalDependencies:
     "@commitlint/load" ">6.1.1"
 
-cz-conventional-changelog@^3.3.0:
+cz-conventional-changelog@3.3.0:
   version "3.3.0"
-  resolved "https://registry.npmjs.org/cz-conventional-changelog/-/cz-conventional-changelog-3.3.0.tgz#9246947c90404149b3fe2cf7ee91acad3b7d22d2"
+  resolved "https://registry.yarnpkg.com/cz-conventional-changelog/-/cz-conventional-changelog-3.3.0.tgz#9246947c90404149b3fe2cf7ee91acad3b7d22d2"
   integrity sha512-U466fIzU5U22eES5lTNiNbZ+d8dfcHcssH4o7QsdWaCcRs/feIPCxKYSWkYBNs5mny7MvEfwpTLWjvbm94hecw==
   dependencies:
     chalk "^2.4.1"
@@ -2356,9 +2356,9 @@ eslint-visitor-keys@^3.0.0, eslint-visitor-keys@^3.1.0, eslint-visitor-keys@^3.3
   resolved "https://registry.npmjs.org/eslint-visitor-keys/-/eslint-visitor-keys-3.3.0.tgz#f6480fa6b1f30efe2d1968aa8ac745b862469826"
   integrity sha512-mQ+suqKJVyeuwGYHAdjMFqjCyfl8+Ldnxuyp3ldiMBFKkvytrXUZWaiPCEav8qDHKty44bD+qV1IP4T+w+xXRA==
 
-eslint@^8.10.0:
+eslint@8.10.0:
   version "8.10.0"
-  resolved "https://registry.npmjs.org/eslint/-/eslint-8.10.0.tgz#931be395eb60f900c01658b278e05b6dae47199d"
+  resolved "https://registry.yarnpkg.com/eslint/-/eslint-8.10.0.tgz#931be395eb60f900c01658b278e05b6dae47199d"
   integrity sha512-tcI1D9lfVec+R4LE1mNDnzoJ/f71Kl/9Cv4nG47jOueCMBrCCKYXr4AUVS7go6mWYGFD4+EoN6+eXSrEbRzXVw==
   dependencies:
     "@eslint/eslintrc" "^1.2.0"
@@ -3014,9 +3014,9 @@ humanize-ms@^1.2.1:
   dependencies:
     ms "^2.0.0"
 
-husky@^7.0.4:
+husky@7.0.4:
   version "7.0.4"
-  resolved "https://registry.npmjs.org/husky/-/husky-7.0.4.tgz#242048245dc49c8fb1bf0cc7cfb98dd722531535"
+  resolved "https://registry.yarnpkg.com/husky/-/husky-7.0.4.tgz#242048245dc49c8fb1bf0cc7cfb98dd722531535"
   integrity sha512-vbaCKN2QLtP/vD4yvs6iz6hBEo6wkSzs8HpRah1Z6aGmF2KW5PdYuAd7uX5a+OyBZHBhd+TFLqgjUgytQr4RvQ==
 
 iconv-lite@^0.4.24:
@@ -3474,9 +3474,9 @@ kind-of@^6.0.2, kind-of@^6.0.3:
   resolved "https://registry.npmjs.org/kind-of/-/kind-of-6.0.3.tgz#07c05034a6c349fa06e24fa35aa76db4580ce4dd"
   integrity sha512-dcS1ul+9tmeD95T+x28/ehLgd9mENa3LsvDTtzm3vyBEO7RPptvAD+t44WVXaUjTBRcrpFeFlC8WCruUR456hw==
 
-lerna@^4.0.0:
+lerna@4.0.0:
   version "4.0.0"
-  resolved "https://registry.npmjs.org/lerna/-/lerna-4.0.0.tgz#b139d685d50ea0ca1be87713a7c2f44a5b678e9e"
+  resolved "https://registry.yarnpkg.com/lerna/-/lerna-4.0.0.tgz#b139d685d50ea0ca1be87713a7c2f44a5b678e9e"
   integrity sha512-DD/i1znurfOmNJb0OBw66NmNqiM8kF6uIrzrJ0wGE3VNdzeOhz9ziWLYiRaZDGGwgbcjOo6eIfcx9O5Qynz+kg==
   dependencies:
     "@lerna/add" "4.0.0"
@@ -5473,7 +5473,7 @@ typedarray@^0.0.6:
   resolved "https://registry.npmjs.org/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
   integrity sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c=
 
-typescript@^4.4.3, typescript@^4.6.2:
+typescript@4.6.2, typescript@^4.4.3:
   version "4.6.2"
   resolved "https://registry.npmjs.org/typescript/-/typescript-4.6.2.tgz#fe12d2727b708f4eef40f51598b3398baa9611d4"
   integrity sha512-HM/hFigTBHZhLXshn9sN37H085+hQGeJHJ/X7LpBWLID/fbc2acUMfU+lGD98X81sKP+pFa9f0DZmCwB9GnbAg==
