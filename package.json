@@ -6,7 +6,8 @@
   "scripts": {
     "prepare": "husky install",
     "commit": "cz",
-    "lint": "npx eslint --ext .js,.ts,.vue ."
+    "lint": "npx eslint --ext .js,.ts,.vue .",
+    "publish": "lerna publish"
   },
   "devDependencies": {
     "@commitlint/cli": "16.2.4",
