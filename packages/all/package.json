@@ -1,6 +1,6 @@
 {
   "name": "@hongbusi/eslint-config",
-  "version": "0.2.2",
+  "version": "0.3.0",
   "description": "Hongbusi's ESLint config.",
   "author": "Hongbusi",
   "license": "MIT",
