@@ -53,6 +53,10 @@ Create `.vscode/settings.json`
 }
 ```
 
+## Suggest
+
+I am not a fan of using eslint and prettier together. This config already doing quite some formatting lint and I would prefer to leave the rest of flexibility and styling to human.
+
 ## License
 
 MIT
