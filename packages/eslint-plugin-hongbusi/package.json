@@ -19,6 +19,7 @@
     "@typescript-eslint/utils": "^5.26.0"
   },
   "devDependencies": {
+    "rimraf": "^3.0.2",
     "unbuild": "^0.7.4",
     "vitest": "^0.12.9"
   }
